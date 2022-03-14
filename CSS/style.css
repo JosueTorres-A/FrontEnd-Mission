@@ -1,0 +1,91 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    background-color: white;
+    display: inline-flex;
+    width: 100%;
+}
+
+.transparentBanner {
+    opacity: 0.5;
+}
+
+.centered {
+    display: flex;
+    font-size: large; 
+    font-weight: bold;
+    color: gray;
+    padding-right: 100px;
+}
+
+.rightJustification{
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+header {
+    color: #263cff;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 100px;
+    font-size: xx-large;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+header li {
+    display: flex;
+    list-style: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+}
+
+header li a {
+    text-decoration: none;
+    color: gray;
+    padding: 15px;
+}
+
+header li a:hover {
+    text-decoration: none;
+    background-color: #263cff;
+    color: white;
+}
+
+header li button {
+    background-color: #3b4fff;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 5px 5px grey;
+    font-size: large; 
+    font-weight: bold;
+}
+
+header li button:hover {
+    background-color: #263cff;
+}
+
+section {
+    padding-top: 100px;
+}
+
+.blueButton {
+    background-color: #3b4fff;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 5px 5px grey;
+    font-size: large; 
+    font-weight: bold;
+}
