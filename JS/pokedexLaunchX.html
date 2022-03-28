@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex Perrona</title>
+    <script src="./pokedexLaunchX.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="upper-page">
+        <span class="lente"></span>
+        <span class="align-center">
+            <span class="boton rojo"></span>
+            <span class="boton amarillo"></span>
+            <span class="boton verde"></span>
+        </span>
+    </div>
+    <span class="main-page">
+        <span class="half-page">
+            <span class="center-screen">
+                <span class="screen">
+                    <img class="center-image" src="/img/Poké_Ball_icon.svg.png" alt="" id="pokeImg">
+                    <h3 class="pokeName" id="pokemonName">Pokebola</h3>
+                </span> 
+            </span>
+            <div class="controller">
+                <div class="pad">
+                    <div class="pad-center">
+                        <div class="pad-circle"></div>
+                    </div>
+                    <div class="pad-top"></div>
+                    <div class="pad-bottom"></div>
+                    <div class="pad-left"></div>
+                    <div class="pad-right"></div>
+                </div>
+                <div class="buttons">
+                    <div class="button-a"></div>
+                    <div class="button-b"></div>
+                </div>
+            </div>      
+        </span>
+        <span class="half-page">
+            <div class="center-screen">
+                    <div class="show-info">
+                        <span class="info-pokemon">
+                            <label for="">Tipo</label>
+                            <input type="text" name="tipoPokemon" id="tipoPokemon" readonly>
+                        </span>
+                        <h4>Estadísticas</h4>
+                        <span class="info-pokemon">
+
+                                <label for="">Hp</label>
+                                <input type="text" name="hpPokemon" id="hpPokemon" readonly>                           
+                         
+                        </span>
+                        <span class="info-pokemon">
+                            <label for="">Attack</label>
+                            <input type="text" name="attackPokemon" id="attackPokemon" readonly>
+                     
+                    </span>
+                        <span class="info-pokemon">
+                                <label for="">Defense</label>
+                                <input type="text" name="defensePokemon" id="defensePokemon" readonly>
+                                                        
+                        </span>
+                        <span class="info-pokemon">
+                            <label for="">Special-attack</label>
+                            <input type="text" name="specPokemon" id="specPokemon" readonly>  
+                        </span>
+                        <span class="info-pokemon">
+                            <label for="">Special-Defense</label>
+                            <input type="text" name="specdPokemon" id="specdPokemon" readonly>
+                            
+                        </span>            
+                        <span class="info-pokemon">
+                            <label for="">Speed</label>
+                            <input type="text" name="speedPokemon" id="speedPokemon" readonly>
+                        </span>            
+                    </div>                    
+                </div>
+                <div class="interaction">
+                    <input type="text" placeholder="Introduzca pokemon" id="pokeName" name="pokeName">
+                    <button class="button-change" onclick="updateInfo()">Cambiar Pokemon</button>
+                </div>
+        </span>
+    </span>
+    <!--<input type="text" placeholdr="pikachu" id="pokeName" name="pokeName"><br>
+    <img src="./img/Poké_Ball_icon.svg.png" id="pokeImg" alt="Pokemon" width="150px"><br>
+    <button onclick="imprimir()">Cambiar pokemon</button>-->
+</body>
+</html>
